@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze:wght@300&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Grenze', serif;
+}
+body{
+  background: #1E1E1E;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+header{
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+header h1{
+  font-size: 62px;
+}
+small{
+  color: #ffffff90;
+  
+}
+
+.tabelas{
+  background: #2E2E2E;
+  border-radius: 10px;
+  color: #fff;
+  border: 2px solid #00940F;
+  padding: 20px;
+  text-align: center;
+}
+thead tr th{
+  border-bottom: 1px solid #ffffff50;
+  font-size: 20px;
+}
+th{
+  padding: 5px;
+}
+td{
+  border-bottom: 1px solid #ffffff10;
+  font-size: 22px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  color: #ffffff90;
+}
+footer img{
+  width: 50px;
+}
+@media only screen and (max-width: 600px) {
+  header h1 {
+    font-size: 32px;
+  }
+
+  small {
+    font-size: 12px;
+  }
+
+  thead tr th {
+    font-size: 16px;
+    padding: 5px;
+  }
+  th{
+    padding: 5px;
+  }
+
+  td {
+    font-size: 14px;
+  }
+  .tabelas{
+    padding: 5px;
+  }
+  .tabela{
+    padding: 5px;
+  }
+}

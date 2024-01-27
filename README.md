@@ -1,44 +1,8 @@
-# Covid-19 Brasil
+# React + Vite
 
-<p align="center">
-  <img src="https://i.ibb.co/pZMs46y/Whats-App-Image-2024-01-27-at-15-04-54.jpg" alt="Screenshot do Projeto" />
-</p>
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# Descrição
-Este projeto React exibe informações atualizadas sobre casos de Covid-19 no Brasil, usando a API covid19-brazil-api.
+Currently, two official plugins are available:
 
-# Como Usar
-Clone este repositório:
-
-
-
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-# Instale as dependências:
-
-
-
-cd nome-do-repositorio
-npm install
-# Inicie o aplicativo:
-
-
-npm start
-# O aplicativo será executado em http://localhost:3000.
-
-# Tecnologias Utilizadas
-React
-CSS
-
-covid19-brazil-api API
-
-# Estrutura do Projeto
-
-src/ : Código-fonte do aplicativo React.
-public/ : Recursos estáticos, como imagens.
-
-
-# Contribuição
-Contribuições são bem-vindas! Sinta-se à vontade para abrir um problema ou enviar uma solicitação de pull.
-
-# Licença
-Este projeto é licenciado sob a Licença MIT.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
